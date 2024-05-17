@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.title {
+    margin: 8px;
+    margin-bottom: 4px; 
+}
+
+p.description {
+    margin: 8px; 
+    margin-bottom: 25px; 
+}
+
+.container {
+    display: flex;
+    background-color: pink;
+    flex-direction: column;
+    width: 565px; 
+    height: 565px; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.row {
+    display: flex; 
+    flex-direction: row;
+}
+
+.square {
+    background-color: white;
+    border: solid; 
+    border-radius: 2px;
+    margin: 1px; 
+    width: 30px; 
+    height: 30px
+}
