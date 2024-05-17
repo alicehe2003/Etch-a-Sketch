@@ -27,6 +27,6 @@ resetButton.addEventListener("click", reset);
 
 function reset() {
     squares.forEach(square => {
-        square.style.backgroundColor = "aliceblue"
+        square.style.backgroundColor = "white"
     })
 }

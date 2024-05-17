@@ -3,14 +3,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1.title {
     margin: 4px;
+    color: palevioletred; 
 }
 
 p.description {
     margin: 8px; 
+    color: grey; 
 }
 
 .reset {
@@ -19,7 +22,7 @@ p.description {
 
 .container {
     display: flex;
-    background-color: pink;
+    background-color: rgb(255, 222, 227);
     flex-direction: column;
     width: 520px; 
     height: 520px; 
@@ -35,7 +38,7 @@ p.description {
 
 .square {
     border-radius: 2px;
-    background-color: aliceblue;
+    background-color: white;
     margin: 1px; 
     width: 30px; 
     height: 30px
