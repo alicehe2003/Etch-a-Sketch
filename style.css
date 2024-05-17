@@ -6,24 +6,26 @@ body {
 }
 
 h1.title {
-    margin: 8px;
-    margin-bottom: 4px; 
+    margin: 4px;
 }
 
 p.description {
     margin: 8px; 
-    margin-bottom: 25px; 
+}
+
+.reset {
+    margin: 3px; 
 }
 
 .container {
     display: flex;
     background-color: pink;
     flex-direction: column;
-    width: 565px; 
-    height: 565px; 
+    width: 520px; 
+    height: 520px; 
     justify-content: center; 
     align-items: center;
-    margin: 15px; 
+    margin: 20px; 
 }
 
 .row {
@@ -32,9 +34,8 @@ p.description {
 }
 
 .square {
-    border: solid; 
     border-radius: 2px;
-    border-color: aliceblue;
+    background-color: aliceblue;
     margin: 1px; 
     width: 30px; 
     height: 30px
