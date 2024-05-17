@@ -23,6 +23,7 @@ p.description {
     height: 565px; 
     justify-content: center; 
     align-items: center;
+    margin: 15px; 
 }
 
 .row {
@@ -31,9 +32,9 @@ p.description {
 }
 
 .square {
-    background-color: white;
     border: solid; 
     border-radius: 2px;
+    border-color: aliceblue;
     margin: 1px; 
     width: 30px; 
     height: 30px
